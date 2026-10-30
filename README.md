@@ -4,13 +4,13 @@ Raw data, analysis script, and finite-element results for the mass-matched
 three-point bending experiment in the paper *Strecs3D: Stress-Driven Infill
 Optimization as a Slicing Preprocess for Material Extrusion 3D Printing*
 (Taniguchi and Hayama). The software itself is at
-<https://github.com/tomohiron907/Strecs3D> (release `v2.0.0`).
+<https://github.com/tomohiron907/Strecs3D> (release `v2.1.0`).
 
 ## Experiment
 
 - Specimens: 180 × 50 × 7.5 mm beams, printed flat on a Bambu Lab P1S in
   Overture Matte PLA (1.75 mm), sliced in Bambu Studio (0.20 mm Standard
-  profile, gyroid infill, no walls, no top or bottom layers).
+  profile, gyroid infill, no top or bottom layers).
 - Conditions (three specimens each, both 15 g):
   - `normal1`–`normal3`: uniform infill at 14%.
   - `strecs1`–`strecs3`: optimized with Strecs3D for a 100 N central load,
